@@ -8,6 +8,6 @@ public class PhoneService {
     private PhoneRepository phoneRepository;
 
     public PhoneService (PhoneRepository phoneRepository) {
-        this.phoneRepository = PhonesRepository;
+        this.phoneRepository = phoneRepository;
     }
 }
