@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/api/course")
-@CrossOrigin
+@CrossOrigin({"*"})
 
 public class CourseController {
     private CourseService courseService;

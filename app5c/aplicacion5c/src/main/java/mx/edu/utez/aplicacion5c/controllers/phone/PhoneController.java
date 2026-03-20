@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/api/phone")
-@CrossOrigin
+@CrossOrigin({"*"})
 public class PhoneController {
     private PhoneService phoneService;
     public PhoneController(PhoneService phoneService){
